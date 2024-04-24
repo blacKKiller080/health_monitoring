@@ -1,9 +1,9 @@
 import 'dart:developer';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:health_monitoring/src/features/app/logic/not_auth_logic.dart';
 import 'package:health_monitoring/src/features/auth/repository/auth_repository.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'app_bloc.freezed.dart';
 

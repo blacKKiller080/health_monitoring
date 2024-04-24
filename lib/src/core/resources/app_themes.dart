@@ -2,7 +2,7 @@ part of 'resources.dart';
 
 mixin AppTheme {
   static ThemeData get light => ThemeData(
-        fontFamily: "NotoSans",
+        fontFamily: "Poppins",
         useMaterial3: true,
         scaffoldBackgroundColor: AppColors.kGlobalBackground,
         splashFactory: NoSplash.splashFactory,
@@ -28,8 +28,8 @@ mixin AppTheme {
 
   static CupertinoThemeData get cupertinoLight => const CupertinoThemeData(
         brightness: Brightness.light,
-        textTheme: CupertinoTextThemeData(
-            textStyle: TextStyle(fontFamily: 'NotoSans')),
+        textTheme:
+            CupertinoTextThemeData(textStyle: TextStyle(fontFamily: 'Poppins')),
         primaryColor: AppColors.kElementsSurface,
         scaffoldBackgroundColor: AppColors.kGlobalBackground,
       );

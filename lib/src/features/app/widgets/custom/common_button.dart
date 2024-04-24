@@ -33,14 +33,14 @@ class CommonButton extends StatelessWidget {
   CommonButton({
     required this.child,
     this.onPressed,
-    this.radius = 16,
+    this.radius = 30,
     this.success = true,
     this.disabled = false,
     this.borderColor,
     this.backgroundColor = AppColors.kMainGreen,
-    this.foregroundColor = AppColors.kWhite,
+    this.foregroundColor = AppColors.kMainGreen,
     this.margin,
-    this.contentPaddingVertical = 17.5,
+    this.contentPaddingVertical = 12,
     this.fontSize = 16,
     this.hasIconMiniButton = false,
     this.hasDownIcon = false,
@@ -99,7 +99,7 @@ class CommonButton extends StatelessWidget {
             TextStyle(
               fontWeight: fontWeight,
               fontSize: fontSize,
-              fontFamily: 'NotoSans',
+              fontFamily: 'Poppins',
             ),
           ),
           padding: MaterialStateProperty.all(

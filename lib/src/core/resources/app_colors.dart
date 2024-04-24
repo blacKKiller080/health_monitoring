@@ -1,10 +1,10 @@
 part of 'resources.dart';
 
 mixin AppColors {
-  static const Color kMainGreen = Color(0xff009C73);
-  static const Color kGlobalBackground = Color(0xffF7F7F7);
+  static const Color kMainGreen = Color(0xff5DB075);
+  static const Color kGlobalBackground = Colors.white;
   static const Color kTextTertiary = Color(0xff566681);
-  static const Color kTextSecondary = Color(0xff99A3B3);
+  static const Color kTextSecondary = Color(0xff8696BB);
   static const Color kBlue = Color(0xFF0085FF);
   static const Color kElementsSecondary = Color(0xff57667F);
   static const Color kElementsTertiary = Color(0xff9AA3B2);
@@ -13,7 +13,7 @@ mixin AppColors {
   static const Color kSurfaceSecondary = Color(0xffF1F2F6);
   static const Color kStatusSuccess = Color(0xff11D392);
   static const Color kSurfaceTertiary = Color(0xffE0E6EF);
-  static const Color kElementsSurface = Color(0xff081221);
+  static const Color kElementsSurface = Color.fromRGBO(99, 180, 255, 0.1);
 
   static const Color kWhite = Colors.white;
   static const Color kBlack = Color(0xFF000000);

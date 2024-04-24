@@ -55,7 +55,7 @@ class CommonInput extends StatefulWidget {
     this.initialValue,
     this.editable = true,
     this.customColor = AppColors.kTextSecondary,
-    this.fillColor = Colors.white,
+    this.fillColor = const Color(0xFFFAFAFA),
     this.borderColor = Colors.white,
     this.textColor = AppColors.kBlack,
     this.onSubmitted,
