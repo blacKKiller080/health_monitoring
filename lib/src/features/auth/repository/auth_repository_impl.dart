@@ -1,10 +1,10 @@
 // ignore_for_file: unused_field
 
-import 'package:flutter_wrap_architecture/src/core/network/layers/network_executer.dart';
-import 'package:flutter_wrap_architecture/src/core/network/result.dart';
-import 'package:flutter_wrap_architecture/src/features/auth/database/auth_dao.dart';
-import 'package:flutter_wrap_architecture/src/features/auth/datasource/auth_remote_ds.dart';
-import 'package:flutter_wrap_architecture/src/features/auth/repository/auth_repository.dart';
+import 'package:health_monitoring/src/core/network/layers/network_executer.dart';
+import 'package:health_monitoring/src/core/network/result.dart';
+import 'package:health_monitoring/src/features/auth/database/auth_dao.dart';
+import 'package:health_monitoring/src/features/auth/datasource/auth_remote_ds.dart';
+import 'package:health_monitoring/src/features/auth/repository/auth_repository.dart';
 
 class AuthRepositoryImpl extends IAuthRepository {
   final IAuthRemoteDS _remoteDS;

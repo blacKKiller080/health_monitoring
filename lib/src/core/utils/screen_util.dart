@@ -1,7 +1,7 @@
 import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
-import 'package:flutter_wrap_architecture/src/core/extension/extensions.dart';
+import 'package:health_monitoring/src/core/extension/extensions.dart';
 import 'package:meta/meta.dart';
 
 /// Namespace

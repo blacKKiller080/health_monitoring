@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wrap_architecture/src/core/model/dependencies_storage.dart';
-import 'package:flutter_wrap_architecture/src/core/model/repository_storage.dart';
-import 'package:flutter_wrap_architecture/src/core/widget/dependencies_scope.dart';
-import 'package:flutter_wrap_architecture/src/core/widget/repository_scope.dart';
-import 'package:flutter_wrap_architecture/src/features/app/presentation/app_configuration.dart';
-import 'package:flutter_wrap_architecture/src/features/settings/widget/scope/settings_scope.dart';
+import 'package:health_monitoring/src/core/model/dependencies_storage.dart';
+import 'package:health_monitoring/src/core/model/repository_storage.dart';
+import 'package:health_monitoring/src/core/widget/dependencies_scope.dart';
+import 'package:health_monitoring/src/core/widget/repository_scope.dart';
+import 'package:health_monitoring/src/features/app/presentation/app_configuration.dart';
+import 'package:health_monitoring/src/features/settings/widget/scope/settings_scope.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class AppName extends StatelessWidget {
+class HealthMonitoring extends StatelessWidget {
   final SharedPreferences sharedPreferences;
   final PackageInfo packageInfo;
-  const AppName({
+  const HealthMonitoring({
     super.key,
     required this.sharedPreferences,
     required this.packageInfo,
@@ -20,7 +20,7 @@ class AppName extends StatelessWidget {
   @override
   Widget build(BuildContext context) => DependenciesScope(
         create: (context) => DependenciesStorage(
-          databaseName: 'flutter_wrap_architecture_database',
+          databaseName: 'health_monitoring_database',
           sharedPreferences: sharedPreferences,
           packageInfo: packageInfo,
         ),

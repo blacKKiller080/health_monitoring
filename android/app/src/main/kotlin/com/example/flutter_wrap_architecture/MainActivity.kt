@@ -1,4 +1,4 @@
-package com.example.flutter_wrap_architecture
+package com.example.health_monitoring
 
 import io.flutter.embedding.android.FlutterActivity
 

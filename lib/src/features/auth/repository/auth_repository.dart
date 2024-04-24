@@ -1,4 +1,4 @@
-import 'package:flutter_wrap_architecture/src/core/network/result.dart';
+import 'package:health_monitoring/src/core/network/result.dart';
 
 abstract class IAuthRepository {
   /// Статус аутентификации

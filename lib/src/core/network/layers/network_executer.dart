@@ -2,15 +2,15 @@ import 'dart:async';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_wrap_architecture/src/core/error/network_exception.dart';
-import 'package:flutter_wrap_architecture/src/core/network/interfaces/base_client_generator.dart';
-import 'package:flutter_wrap_architecture/src/core/network/interfaces/base_model.dart';
-import 'package:flutter_wrap_architecture/src/core/network/layers/network_connectivity.dart';
-import 'package:flutter_wrap_architecture/src/core/network/layers/network_creator.dart';
-import 'package:flutter_wrap_architecture/src/core/network/layers/network_decoder.dart';
-import 'package:flutter_wrap_architecture/src/core/network/network_options/network_options.dart';
-import 'package:flutter_wrap_architecture/src/core/network/result.dart';
-import 'package:flutter_wrap_architecture/src/core/utils/error_util.dart';
+import 'package:health_monitoring/src/core/error/network_exception.dart';
+import 'package:health_monitoring/src/core/network/interfaces/base_client_generator.dart';
+import 'package:health_monitoring/src/core/network/interfaces/base_model.dart';
+import 'package:health_monitoring/src/core/network/layers/network_connectivity.dart';
+import 'package:health_monitoring/src/core/network/layers/network_creator.dart';
+import 'package:health_monitoring/src/core/network/layers/network_decoder.dart';
+import 'package:health_monitoring/src/core/network/network_options/network_options.dart';
+import 'package:health_monitoring/src/core/network/result.dart';
+import 'package:health_monitoring/src/core/utils/error_util.dart';
 import 'package:l/l.dart';
 
 class NetworkExecuter {
